@@ -1,0 +1,53 @@
+body{
+    background: url(football.jpg);
+    background-size: 100%;
+}
+.menu{
+    margin: 7% auto;
+}
+.menu ul{
+    margin-left: 25%;
+    list-style: none;
+    display: inline-flex;
+}
+.menu ul li{
+    width: 120px;
+    text-align: center;
+    color: blue;
+}
+.resume{
+    display: none;
+    width: 120px;
+    position: absolute;
+}
+.menu ul li:hover .resume{
+    display: block;
+}
+.menu ul li:hover .resume ul{
+    display: block;
+    text-align: center;
+    width: 120px;
+    margin-top: 1%;
+    margin-left: -45px;
+    position: relative;
+    color: chocolate;
+}
+.menu ul li:hover .resume ul li{
+    margin: 3px;
+    border: 1px solid grey;
+    background-color: rgba(218, 179, 129, 0.384);
+}
+.gd{
+    display: none;
+}
+.group:hover .gd{
+    display: block;
+    width: 120px;
+    margin-top: 2%;
+    margin-left: -70px;
+}
+.group:hover .gd ul li{
+    margin: 3px;
+    border: 1px solid grey;
+    background-color: rgba(218, 179, 129, 0.384);
+}
